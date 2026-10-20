@@ -136,7 +136,7 @@ nav{
     z-index: 4;
 
     right: 362px;
-    bottom: 500px;
+    bottom: 100px;
 
     width: 600px;
     height: 400px;
@@ -324,6 +324,10 @@ nav{
     line-height: 29px;
 
 }
+.testimonial *{
+    align-items: center;
+    justify-content: center;
+}
 .testimoninal__title{
     font-family: 'Gilroy';
     font-weight: 700;
@@ -343,6 +347,8 @@ nav{
     line-height: 44px;
     letter-spacing: -1.2px;
     text-align: center;
+
+    gap: 30px;
 }
 .testimoninalCard--first{
     width: 730px;
@@ -381,6 +387,9 @@ nav{
     color: #FFFFFF;
 
 }
+.testimoninalCard--first,.testimoninalCard--second,.testimoninalCard--third{
+    background-color: #fff;
+}
 .testimoninalCard--first *{
     opacity: 0.5;
 }
@@ -391,7 +400,7 @@ nav{
     height: 111px;
     top: 43px;
     left: 35px;
-
+    color: black;
 }
 .testimonial__text{
     font-family: 'Gilroy';
@@ -399,6 +408,8 @@ nav{
     font-size: 21px;
 
     line-height: 32px;
+        color: black;
+
 }
 .testimonial__name{
     font-family: 'Gilroy';
@@ -406,6 +417,8 @@ nav{
     font-size: 17px;
 
     line-height: 29px;
+        color: black;
+
 }
 .testimonial__readMoreText{
     font-family: 'Gilroy';
@@ -419,6 +432,13 @@ nav{
 .testimonial__readMoreImage{
     width: 10px;
     height: 8.7px;
+}
+.video{
+        width: 1110px;
+    height: 652px;
+    align-self: center;
+    justify-self: center;
+
 }
 .pricing{
     padding: 109px 443px 221px 443px;
@@ -492,6 +512,10 @@ nav{
     text-align: center;
 
 }
+.pricing *{
+    align-items: center;
+    justify-content: center;;
+}
 .pricingCard__button--left{
     width: 219px;
     height: 59px;
@@ -508,7 +532,7 @@ nav{
     color: #FFFFFF;
 
 }
-.pricingCard__button--left{
+.pricingCard__button--right{
     width: 219px;
     height: 59px;
 
