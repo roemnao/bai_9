@@ -293,6 +293,8 @@ nav{
 }
 .region__title{
     margin-bottom: 98px;
+    color: #fff;
+    text-align: center;
 }
 .featureCard__list{
     display: grid;
@@ -553,4 +555,8 @@ nav{
     position: absolute;
     bottom: 0px;
     width: 100%;
+}
+.featureCard__imgBor img{
+    width: 40px;
+    height: 40px;
 }
