@@ -66,6 +66,7 @@ nav{
 }
 .introduce{
     margin-left: 244px;
+    width: 345px;
 }
 .introduce__title{
     font-family: 'Gilroy',sans-serif;
@@ -135,10 +136,10 @@ nav{
     z-index: 4;
 
     right: 362px;
-    bottom: 224px;
+    bottom: 500px;
 
-    width: 428px;
-    height: 126px;
+    width: 600px;
+    height: 400px;
 
     box-shadow: 0px 2px 124px 0px #0000002C;
 
